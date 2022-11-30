@@ -156,12 +156,17 @@ body header {
   align-items: center;
   justify-content: center;
 }
-body header .navigation {
+body .aside {
+  width: 1366px;
+  height: 250px;
+  background-image: url("../img/MaskGroup.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  width: 1200px;
-  height: 50px;
+  justify-content: center;
 }
 body .main .container {
   display: flex;
@@ -170,14 +175,6 @@ body .main .container {
   margin: 0 auto;
   padding: 0 213px;
 }
-body .footer .container {
-  display: flex;
-  flex-direction: column;
-  width: 940px;
-  height: 845px;
-  margin: 0 auto;
-  padding: 0 213px;
-  background: #316099;
-  background-size: 90%;
-  border-radius: 0px 200px 0px 0px;
+body .footer {
+  margin-top: 100px;
 }/*# sourceMappingURL=style.css.map */
