@@ -94,6 +94,181 @@ body .container .aside p {
   letter-spacing: 0.04em;
   color: rgba(255, 255, 255, 0.6);
 }
+body .container .main {
+  margin-top: 60px;
+  padding: 0px 213px;
+  display: flex;
+  flex-wrap: wrap;
+}
+body .container .main .about-us {
+  width: 40%;
+}
+body .container .main .about-us .img-about {
+  margin: 80px 0px;
+}
+body .container .main .about-us .addres h3 {
+  font-family: "Gilroy";
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+body .container .main .about-us .addres p {
+  margin: 25px 0px;
+  width: 299px;
+  height: 53px;
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+body .container .main .about-us .phone {
+  margin: 40px 0px;
+}
+body .container .main .about-us .phone .number {
+  margin: 15px 0px;
+  display: flex;
+  align-items: center;
+}
+body .container .main .about-us .phone img {
+  margin-right: 19px;
+  width: 20px;
+  height: 20px;
+}
+body .container .main .about-us .phone h3 {
+  font-family: "Gilroy";
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+body .container .main .about-us .phone p {
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+body .container .main .about-us .online-service {
+  margin: 40px 0px;
+}
+body .container .main .about-us .online-service .number {
+  margin: 15px 0px;
+  display: flex;
+  align-items: center;
+}
+body .container .main .about-us .online-service img {
+  margin-right: 19px;
+  width: 20px;
+  height: 20px;
+}
+body .container .main .about-us .online-service h3 {
+  font-family: "Gilroy";
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+body .container .main .about-us .online-service p {
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+body .container .main .modal-send-message {
+  width: 60%;
+  height: 800px;
+  background: #FFFFFF;
+  box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  padding: 55px;
+}
+body .container .main .modal-send-message h2 {
+  font-family: "Gilroy";
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  margin-bottom: 50px;
+}
+body .container .main .modal-send-message p {
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.8;
+  margin-bottom: 5px;
+}
+body .container .main .modal-send-message input {
+  width: 428px;
+  height: 72px;
+  opacity: 0.4;
+  border: 1px solid #356EAD;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+body .container .main .modal-send-message input::-moz-placeholder {
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.6;
+  padding: 40px;
+}
+body .container .main .modal-send-message input:-ms-input-placeholder {
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.6;
+  padding: 40px;
+}
+body .container .main .modal-send-message input::placeholder {
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.6;
+  padding: 40px;
+}
+body .container .main .modal-send-message input:last-child {
+  width: 428px;
+  height: 144px;
+  opacity: 0.4;
+  border: 1px solid #356EAD;
+  border-radius: 10px;
+}
+body .container .main .modal-send-message button {
+  margin-top: 60px;
+  width: 428px;
+  height: 72px;
+  background: #5A98D0;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  border: none;
+}
+body .container .main .modal-send-message button a {
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+body .container .main .navigation {
+  width: 100%;
+  margin-top: 100px;
+}
 body .container .footer {
   margin-top: 125px;
   width: 1270px;
@@ -113,7 +288,7 @@ body .container .footer .footer-1 .description-footer {
   flex-direction: column;
 }
 body .container .footer .footer-1 .description-footer h4 {
-  width: 317px;
+  width: 340px;
   height: 92px;
   font-family: "Gilroy";
   font-size: 36px;

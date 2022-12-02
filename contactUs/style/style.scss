@@ -90,7 +90,187 @@ body {
         }
 
         .main {
-            // padding: 0px 213px;
+            margin-top: 60px;
+            padding: 0px 213px;
+            display: flex;
+            flex-wrap: wrap;
+
+            .about-us {
+                width: 40%;
+
+                .img-about {
+                    margin: 80px 0px;
+                }
+
+                .addres {
+                    h3 {
+                        font-family: 'Gilroy';
+                        font-size: 20px;
+                        line-height: 30px;
+                        letter-spacing: 0.04em;
+                        color: #1F3F68;
+                    }
+
+                    p {
+                        margin: 25px 0px;
+                        width: 299px;
+                        height: 53px;
+                        font-family: 'Gilroy';
+                        font-size: 16px;
+                        line-height: 26px;
+                        letter-spacing: 0.04em;
+                        color: #1F3F68;
+                        opacity: 0.6;
+                    }
+                }
+
+                .phone {
+                    margin: 40px 0px;
+
+                    .number {
+                        margin: 15px 0px;
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    img {
+                        margin-right: 19px;
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                    h3 {
+                        font-family: 'Gilroy';
+                        font-size: 20px;
+                        line-height: 30px;
+                        letter-spacing: 0.04em;
+                        color: #1F3F68;
+                    }
+
+                    p {
+                        font-family: 'Gilroy';
+                        font-size: 16px;
+                        line-height: 26px;
+                        letter-spacing: 0.04em;
+                        color: #1F3F68;
+                        opacity: 0.6;
+                    }
+                }
+
+                .online-service {
+                    margin: 40px 0px;
+
+                    .number {
+                        margin: 15px 0px;
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    img {
+                        margin-right: 19px;
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                    h3 {
+                        font-family: 'Gilroy';
+                        font-size: 20px;
+                        line-height: 30px;
+                        letter-spacing: 0.04em;
+                        color: #1F3F68;
+                    }
+
+                    p {
+                        font-family: 'Gilroy';
+                        font-size: 16px;
+                        line-height: 26px;
+                        letter-spacing: 0.04em;
+                        color: #1F3F68;
+                        opacity: 0.6;
+                    }
+                }
+            }
+
+            .modal-send-message {
+                width: 60%;
+                height: 800px;
+                background: #FFFFFF;
+                box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+                border-radius: 10px;
+                padding: 55px;
+
+                h2 {
+                    font-family: 'Gilroy';
+                    font-size: 20px;
+                    line-height: 30px;
+                    letter-spacing: 0.04em;
+                    color: #1F3F68;
+                    margin-bottom: 50px;
+                }
+
+                p {
+                    font-family: 'Gilroy';
+                    font-size: 16px;
+                    line-height: 30px;
+                    letter-spacing: 0.04em;
+                    color: #1F3F68;
+                    opacity: 0.8;
+                    margin-bottom: 5px;
+                }
+
+                input {
+                    width: 428px;
+                    height: 72px;
+                    opacity: 0.4;
+                    border: 1px solid #356EAD;
+                    border-radius: 10px;
+                    margin-bottom: 30px;
+
+                    &::placeholder {
+                        font-family: 'Gilroy';
+                        font-size: 16px;
+                        line-height: 30px;
+                        letter-spacing: 0.04em;
+                        color: #1F3F68;
+                        opacity: 0.6;
+                        padding: 40px;
+                    }
+
+                    &:last-child {
+                        width: 428px;
+                        height: 144px;
+                        opacity: 0.4;
+                        border: 1px solid #356EAD;
+                        border-radius: 10px;
+                    }
+                }
+
+                button {
+                    margin-top: 60px;
+                    width: 428px;
+                    height: 72px;
+                    background: #5A98D0;
+                    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+                    border-radius: 10px;
+                    border: none;
+
+                    a {
+                        font-family: 'Gilroy';
+                        font-size: 16px;
+                        line-height: 26px;
+                        text-align: center;
+                        letter-spacing: 0.04em;
+                        color: #FFFFFF;
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            .navigation {
+                width: 100%;
+                margin-top: 100px;
+            }
+
         }
 
         .footer {
@@ -112,7 +292,7 @@ body {
                     flex-direction: column;
 
                     h4 {
-                        width: 317px;
+                        width: 340px;
                         height: 92px;
                         font-family: 'Gilroy';
                         font-size: 36px;

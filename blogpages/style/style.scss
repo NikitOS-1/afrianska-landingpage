@@ -454,7 +454,7 @@ body {
                 width: 860px;
 
                 h2 {
-                    width: 317px;
+                    width: 330px;
                     height: 92px;
                     font-family: 'Gilroy';
                     font-size: 36px;
@@ -475,14 +475,22 @@ body {
                     opacity: 0.6;
                 }
 
-                button {
+                .btn-talk {
                     width: 220px;
                     height: 56px;
-                    left: 213px;
                     border: none;
                     background: #5A98D0;
                     border-radius: 10px;
-                    color: #FFFFFF;
+
+                    a {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        height: 100%;
+                        color: #FFFFFF;
+                        text-decoration: none;
+                    }
                 }
             }
 
