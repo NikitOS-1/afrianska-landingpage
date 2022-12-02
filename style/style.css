@@ -314,4 +314,110 @@ body .container .wrap-main .main .card-center {
 }
 body .container .wrap-main .main .card {
   padding-top: 60px;
+}
+body .container .wrap-main .main-2 .description {
+  display: flex;
+}
+body .container .wrap-main .main-2 .description h3 {
+  width: 227px;
+  height: 92px;
+  font-family: "Gilroy";
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  margin-right: 93px;
+}
+body .container .wrap-main .main-2 .description p {
+  width: 540px;
+  height: 80px;
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+body .container .wrap-main .main-2 .img-smart-home {
+  margin-top: 100px;
+  background-image: url("../img/smart-home.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 424px;
+}
+body .container .wrap-main .main-2 .img-smart-home .description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 48px;
+}
+body .container .wrap-main .main-2 .img-smart-home .description h4 {
+  margin-top: 48px;
+  display: block;
+  font-family: "Gilroy";
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+body .container .wrap-main .main-2 .img-smart-home .description h5 {
+  display: block;
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+body .container .wrap-main .main-2 .mask-group {
+  padding-top: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+body .container .wrap-main .main-2 .mask-group .mask-1 {
+  width: 422px;
+  height: 417px;
+  background-image: url("../img/mask-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 25px;
+}
+body .container .wrap-main .main-2 .mask-group .mask-1 h4 {
+  font-family: "Gilroy";
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+body .container .wrap-main .main-2 .mask-group .mask-1 p {
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+body .container .wrap-main .main-2 .mask-group .mask-2 {
+  width: 422px;
+  height: 417px;
+  background-image: url("../img/mask-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 25px;
+}
+body .container .wrap-main .main-2 .mask-group .mask-2 h4 {
+  font-family: "Gilroy";
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+body .container .wrap-main .main-2 .mask-group .mask-2 p {
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  opacity: 0.6;
 }/*# sourceMappingURL=style.css.map */
